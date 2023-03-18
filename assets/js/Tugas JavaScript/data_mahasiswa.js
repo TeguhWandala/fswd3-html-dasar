@@ -1043,3 +1043,27 @@ console.log("Max :" + maleMax);
 let maleMin = Math.min.apply(Math, nilaipria);
 console.log("Min :" + maleMin);
 
+let maping ={
+  female   : {
+    count  : femalecount,
+    score  : {
+      average : femaleAverage,
+      min : femaleMin,
+      max : femaleMax
+ 
+    },
+    Student : femalestudent
+  },
+  male : {
+    count : malecount,
+    score : {
+      average : maleAverage,
+      min : maleMin,
+      max : maleMax,
+    },
+    Student : malestudent
+  }
+};
+
+console.log("object maping");
+console.log(maping);
